@@ -12,7 +12,7 @@ jobs:
       security-events: write
     steps:
       - uses: actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3 # v3.5.0
-      - uses: haskell-actions/hlint-scan@f9b967f4acb2a4ec0135d74e169ab8eb3494f15d # main
+      - uses: haskell-actions/hlint-scan@642f0923a5ad9d60604dd3f77939d13701be1981 # main
 
   scan-v0:
     name: Scan code with HLint (v0)
@@ -22,4 +22,4 @@ jobs:
       security-events: write
     steps:
       - uses: actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3 # v3.5.0
-      - uses: haskell-actions/hlint-scan@f9b967f4acb2a4ec0135d74e169ab8eb3494f15d # v0
+      - uses: haskell-actions/hlint-scan@642f0923a5ad9d60604dd3f77939d13701be1981 # v0
